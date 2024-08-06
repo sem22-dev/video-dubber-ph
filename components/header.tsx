@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Header() {
     return(
-            <div className="flex items-center gap-1 text-sm text-gray-600">
+            <div className="flex flex-wrap items-center gap-1 text-sm text-gray-600">
                 <Link href="#" className="block transition hover:text-blue-600">
                      Home 
                 </Link>
